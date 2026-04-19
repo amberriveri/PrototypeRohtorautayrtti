@@ -1,0 +1,2 @@
+- These (Player, Dog, Creature, MovementDebugger and IMovable) are old scripts I created during module 3, mostly using AI.
+- I do not remember the prompts, but I remember asking AI to help me create player controller using OOP and I wanted to have an abstract class as a base class to be inherited.
