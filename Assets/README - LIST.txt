@@ -11,6 +11,7 @@ Some AI prompts I remember:
 - Old scripts: "how would I create interface(s) to implement in my script(s)"
 - How to create simple animation for my Dog that only has one movement animation and one idle animation. How can I flip the sprite according to the direction the dog is moving?
 - Can I change the dog's finding to invoke something in other game object?
+- New Farm system: What should I do to have this (Plant) script have polymorphisim, or like 2 flower scripts would inherit it and be a little bit different from each other?
 
 Tutorials used:
 - https://www.youtube.com/watch?v=82U4ToJU-28&t=27s

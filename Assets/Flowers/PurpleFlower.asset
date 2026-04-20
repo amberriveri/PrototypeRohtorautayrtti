@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5c14a6d06ef1d149886e267ba6ea3a1, type: 3}
+  m_Name: PurpleFlower
+  m_EditorClassIdentifier: Assembly-CSharp::PurpleFlower
+  plantName: PurpleFlower
+  seedSprite: {fileID: 21300000, guid: 74e8589b488457a4cb99eff4da9506a5, type: 3}
+  flowerSprite: {fileID: 21300000, guid: 526616c3bbc7f8843b6c8f28bd825ba1, type: 3}
+  growTime: 5
