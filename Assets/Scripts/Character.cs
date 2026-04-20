@@ -3,6 +3,7 @@ using UnityEngine.InputSystem;
 
 public abstract class Character : MonoBehaviour, IMove
 {
+    //SerializeField shows field in Inspector, even though it's protected
     [SerializeField] protected Rigidbody2D rb;
     [SerializeField] protected float moveSpeed = 5f;
     protected Vector2 moveDirection;
@@ -22,6 +23,7 @@ public abstract class Character : MonoBehaviour, IMove
         rb.gravityScale = 0;
     }
 
+    //inheriting classes must override
     public abstract void Move();
 
     protected virtual void FixedUpdate()

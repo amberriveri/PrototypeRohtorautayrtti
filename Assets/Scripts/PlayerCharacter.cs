@@ -8,6 +8,7 @@ public class PlayerCharacter : Character
 
     public override void Move()
     {
+        //reference to Input System action used for movement, assignable from Inspector
         moveDirection = moveAction.action.ReadValue<Vector2>().normalized;
 
         if (moveDirection.sqrMagnitude < 0.001f)

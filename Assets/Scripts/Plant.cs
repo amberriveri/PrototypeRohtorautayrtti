@@ -7,6 +7,8 @@ public class Plant : MonoBehaviour
     [SerializeField] private GameObject flower;
     [SerializeField] private float waitingTime = 5f;
     [SerializeField] private KeyCode plantKey = KeyCode.E;
+
+    //to see in inspector if there's problems during gameplay
     [SerializeField] private bool isInPlantArea;
     [SerializeField] private bool isActive;
     [SerializeField] private bool canPlant;
@@ -54,6 +56,8 @@ public class Plant : MonoBehaviour
             canPlant = true;
             isActive = false;
         }
+
+        //Add to inventory?
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
