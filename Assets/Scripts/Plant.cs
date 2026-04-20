@@ -5,6 +5,7 @@ public class Plant : MonoBehaviour
 {
     [SerializeField] private GameObject seed;
     [SerializeField] private GameObject flower;
+
     [SerializeField] private float waitingTime = 5f;
     [SerializeField] private KeyCode plantKey = KeyCode.E;
 
